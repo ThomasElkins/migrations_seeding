@@ -7,6 +7,9 @@ module.exports = {
     connection: {
       database: 'migrations',
       host:'127.0.0.1'
+    },
+    seeds: {
+      directory: './seeds'
     }
   },
 
