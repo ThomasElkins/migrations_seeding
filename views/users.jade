@@ -1,0 +1,9 @@
+extends layout
+
+block content
+
+  form(method="get", action="/users/create")
+    input(type="submit" method="get" action="/users/create" value="Create new User")
+  
+  form(method="get", action="/users/login")
+    input(type="submit" method="get" action="/users/login" value="Log In")
